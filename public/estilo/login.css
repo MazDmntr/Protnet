@@ -1,0 +1,28 @@
+body{
+    background-image: url("../img/fundo_login.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+div.container{
+    padding: 100px;
+}
+
+form{
+    color:#fff;
+}
+
+#nome,#senha{
+    background-color: transparent;
+    color:#fff;
+    border-color: #fff;
+}
+
+a{
+    color:#fff;
+}
+
+a:hover{
+    color:#fff;
+}
