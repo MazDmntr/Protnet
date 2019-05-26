@@ -1,5 +1,7 @@
 <?php 
     require_once("../banco/conexao/conexao.php");
+
+    //pagina inicial do projeto
 ?>
 <!doctype HTML>
 <html>
