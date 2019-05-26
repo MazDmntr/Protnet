@@ -85,6 +85,7 @@
                             <div class="form-group">
                                 <input type="submit" class="btn btn-success" name="enviar" value="Enviar">
                             </div>
+                        <p style = "font-weight: bold"><?php if(isset($mensagem)) echo $mensagem;?></p>
                             <p>Ainda não possue acesso?<a href="cadastro.php"> Clique aqui e cadastre-se</a></p>
                         </form>
                     </div>
