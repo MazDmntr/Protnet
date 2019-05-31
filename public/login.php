@@ -1,6 +1,6 @@
 <?php 
     require_once("../banco/conexao/conexao.php");
-
+    
     if(isset($_POST["nomedeusuario"])){
         $nomeusuario = $_POST["nomedeusuario"];
         $senha = $_POST["senha"];
@@ -20,6 +20,7 @@
         if(empty($informacao)){
             $mensagem = "Login sem sucesso";
         }else{
+            $_SESSION["user_portal"] = $informacao["usuarioid"];
             header("location:index_usuario.php");
         }
     }
