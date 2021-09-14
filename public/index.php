@@ -12,7 +12,7 @@
         <link href="_css/estilo.css" rel="stylesheet">
         <link href="estilo/index.css" rel="stylesheet">
         <link rel="icon" href="img/favicon.jpg" type="image/gif" sizes="16x16">
-        <title>Protnet-Seu registro em segurança</title>
+        <title>Protnet - Seu registro em segurança</title>
     </head>
     <body>
             <nav class="navbar navbar-default navbar-fixed-top">
